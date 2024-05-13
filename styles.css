@@ -44,6 +44,7 @@ body {
     background-color: #3d5e47;
 }
 
+
 .contenedor{
     margin-top: 5px;
     display: flex;
@@ -73,6 +74,13 @@ header {
 
 main {
     padding: 20px;
+}
+
+
+.imgcategories{
+    display: flex;
+    justify-content: center;
+    width: 85%;
 }
 
 section{
@@ -137,14 +145,16 @@ button{
     font-size: 15px;
 }
 
-footer {
+
+footer{
     background-color: #7a9e76;
     color: #fff;
-    text-align: center;
+    text-align: left;
     padding: 10px;
     width: 100%;
     bottom: 0;
 }
+
 
 :root{
     --color-primario: rgb(216, 214, 214); 
