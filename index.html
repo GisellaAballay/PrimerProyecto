@@ -15,16 +15,16 @@
         <img src="./assets/imagenes/Logo Boulevar solo letra blanco.png" alt="Logo de mi sitio web" class="blvd"/>
         <nav class="menu">
             <ul>
-                <li><a href="#">Quienes somos</a></li>
-                <li><a href="#">Categorias</a></li>
-                <li><a href="#">Nuestros estilos</a></li>
-                <li><a href="#">Contáctenos</a></li>
+                <li><a href="/#contenedor">Quienes somos</a></li>
+                <li><a href="/#categories">Categorias</a></li>
+                <li><a href="/#activities">Nuestros estilos</a></li>
+                <li><a href="/#register">Contáctenos</a></li>
             </ul>
         </nav>
     </header>
     <hr>
 
-    <div class="contenedor">
+    <div id="contenedor">
         <div>
             <h2>Educación de la danza</h2>
             <p>Es un estudio que está enfocado en la enseñanza de los diferentes estilos de danza, de la técnica básica de cada uno de ellos y  todo lo que esté relacionado al ámbito artístico. Queremos brindarles a los alumnos la mayor cantidad de conocimientos y herramientas para que se puedan desenvolver de la mejor manera en el ambiente, que aprendan de sus beneficios y de las experiencias vividas. Queremos generar instancias artísticas para que ellos mismos tengan sus propias experiencias y vivencias. Ayudarlos a que desarrollen su máximo potencial no solo en lo físico, sino también en los psíquico- emocional.
@@ -35,22 +35,22 @@
     </div>
     <hr>
     
-    <section>
+    <section id="categories">
             <div class="kidcategory">
                 <h3>Kids</h3>
-                <p>Programa de enseñanza de diferentes estilos de danza que se extiende de marzo a diciembre. No se da un solo estilo de danza, si no que está enfocado en una enseñanza más completa e integral.</p>
+                <p class="descripcion">Programa de enseñanza de diferentes estilos de danza que se extiende de marzo a diciembre. No se da un solo estilo de danza, si no que está enfocado en una enseñanza más completa e integral.</p>
                 <img src="./assets/imagenes/IMG_9250.PNG" class="imgcategories">
             </div>
 
             <div class="adultocategory">
                 <h3>Adultos</h3>
-                <p>Ofrece una variedad de beneficios que van desde mejoras físicas, como la fuerza y la flexibilidad, hasta el desarrollo de habilidades técnicas y artísticas, proporcionando una experiencia enriquecedora que beneficia tanto el cuerpo como la mente.</p>
+                <p class="descripcion">Ofrece una variedad de beneficios que van desde mejoras físicas, como la fuerza y la flexibilidad, hasta el desarrollo de habilidades técnicas y artísticas, proporcionando una experiencia enriquecedora que beneficia tanto el cuerpo como la mente.</p>
                 <img src="./assets/imagenes/IMG_9249.PNG" class="imgcategories">
             </div>
 
             <div class="seminariocategory">
                 <h3>Seminarios</h3>
-                <P>El seminario abordará cuestiones fundamentales en la formación artística, particularmente en danza: el proceso de adaptación, la vocación, la voluntad, el placer de aprender, el cuidado de la salud, la excelencia, la búsqueda de la libertad, y obviamente, la técnica.</P>
+                <P class="descripcion">El seminario abordará cuestiones fundamentales en la formación artística, particularmente en danza: el proceso de adaptación, la vocación, la voluntad, el placer de aprender, el cuidado de la salud, la excelencia, la búsqueda de la libertad, y obviamente, la técnica.</P>
                 <img src="./assets/imagenes/seminariocategoria.PNG" class="imgcategories">
             </div>
     </section>
@@ -59,7 +59,7 @@
 
     <h2>Nuestras actividades</h2>
 
-    <section>
+    <section id="activities">
             <div id="formacion">
                 <img src="./assets/imagenes/IMG_7655-removebg-preview (1).png" class="imgactividades">
                 <h3>Formación de la danza</h3>
@@ -108,7 +108,7 @@
 
     <hr>
     
-    <form class="register" action="https://formspree.io/f/xoqgblpk" method="POST">
+    <form id="register" action="https://formspree.io/f/xoqgblpk" method="POST">
         <h5>Deja un comentario</h5>
         <input class="controls" type="text" placeholder="Nombre y Apellido" name="nombre"/>
         <input class="controls" type="email" placeholder="email" name="email"/>
