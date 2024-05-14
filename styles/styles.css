@@ -61,6 +61,7 @@ body {
 .contenedora p{
     color: #ffffff;
     font-style: italic;
+    text-shadow:-5px -2px 3px #1c1b1d;
 }
 
 #contenedor{
